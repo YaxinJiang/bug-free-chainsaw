@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 60em;
   }
 
 
@@ -13,6 +13,16 @@ body {
 font-style: italic;
 }
 
-div {
+.leftcolumn {
+    float: left;
     width: 50%;
+  }
+
+.rightcolumn {
+    float: right;
+    width: 50%;
+  }
+
+div {
+  column-gap: 400px;
 }
