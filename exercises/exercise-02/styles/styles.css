@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+  }
+
+
+
+
+.title {
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.italic {
+font-style: italic;
+}
+
