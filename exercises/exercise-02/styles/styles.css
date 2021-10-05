@@ -4,8 +4,6 @@ body {
   }
 
 
-
-
 .title {
     font-size: xx-large;
     text-transform: capitalize;
@@ -15,3 +13,6 @@ body {
 font-style: italic;
 }
 
+div {
+    width: 50%;
+}
