@@ -1,0 +1,57 @@
+/*this is to reset html element styling*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(215, 224, 222);
+    height: 100%;
+  }
+
+header {
+    height: 20%;
+    background-color: rgb(243, 122, 122);
+}
+
+nav, footer {
+    height: 10%;
+    background-color: rgb(154, 232, 235);
+}
+
+main {
+    height: 60%;
+    background-color: rgb(255, 217, 159);
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: darkorange;
+    display: inline-block;
+    float: left;
+}
+
+
+.box{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+
+section {
+    width: 60%;
+    height:100%;
+    background-color: rgb(129, 221, 107);
+    display: inline-block;
+    float: left;
+}
+
