@@ -25,3 +25,9 @@ body {
     background: blue;
     align-self: flex-end;
 }
+
+@media (max-width:600px){
+    header,footer{
+        background:rgb(39, 174, 207);
+    }
+}
