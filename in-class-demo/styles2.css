@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content:space-evenly;
     align-items:center;
+    height: 200px;
 }
 
 .item {
@@ -15,4 +16,12 @@ body {
     background-color: tomato;
     font-size: 30px;
     text-align: center;
+    color: blue;
+}
+
+.item:nth-child(2n){
+    color: orange;
+    flex-grow: 2;
+    background: blue;
+    align-self: flex-end;
 }

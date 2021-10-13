@@ -10,6 +10,11 @@ body {
   }
 /*max-width: 60em;*/
 
+p {
+    margin-top: 10px;
+
+}
+
 .source {
     margin-top: 500px;
     font-size: small;
@@ -37,7 +42,7 @@ body {
     margin: 5px;
     width: 230px;
     height: 200px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(199, 190, 190);
     font-size: 60px;
     text-align:left;
 }
@@ -46,7 +51,7 @@ body {
 .main1 {
     margin-left: 300px;
     margin-top: 20px;
-    width: 1000px;
+    width: 900px;
     height: 1000px;
     background-color: rgb(255, 255, 255);
     font-size: 18px;
@@ -54,8 +59,9 @@ body {
 }
 
 .main2 {
-    margin: 20px;
-    width: 1000px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 900px;
     height: 1000px;
     background-color: rgb(255, 255, 255);
     font-size: 18px;
