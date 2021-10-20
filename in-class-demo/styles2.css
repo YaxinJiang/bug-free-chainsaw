@@ -26,8 +26,13 @@ body {
     align-self: flex-end;
 }
 
+header,footer{
+    height: 20%;
+    background: brown;
+}
+
 @media (max-width:600px){
     header,footer{
-        background:rgb(39, 174, 207);
+    background:rgb(39, 174, 207);
     }
 }

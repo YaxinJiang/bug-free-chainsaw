@@ -6,9 +6,15 @@
 
 body {
     margin: 0 auto;
-    
+    background-color: cadetblue;
   }
 /*max-width: 60em;*/
+
+@media (max-width:900px){
+    body{
+    background-color: burlywood;
+    }
+}
 
 p {
     margin-top: 10px;
@@ -21,6 +27,13 @@ p {
     font-style: italic;
 }
 
+@media (max-width:900px){
+    .source {
+        margin-top: 10px;
+        font-size: small;
+        font-style: italic;
+    }
+}
 .title {
     font-size: xx-large;
     text-transform: capitalize;
@@ -37,6 +50,14 @@ p {
     align-items:flex-start;
 }
 
+@media (max-width:900px){
+    .container{
+        display:inline;
+        justify-content:start;
+        align-items:flex-start;
+    }
+}
+
 .side {
     position:fixed;
     margin: 5px;
@@ -47,13 +68,24 @@ p {
     text-align:left;
 }
 
+@media (max-width:900px){
+    .side {
+        position:relative;
+        margin: 5px;
+        width: 230px;
+        height: 200px;
+        background-color: rgb(199, 190, 190);
+        font-size: 60px;
+        text-align:left;
+    }
+}
+
 
 .main1 {
     margin-left: 300px;
     margin-top: 20px;
     width: 900px;
     height: 1000px;
-    background-color: rgb(255, 255, 255);
     font-size: 18px;
     text-align:left;
 }
@@ -63,9 +95,29 @@ p {
     margin-top: 20px;
     width: 900px;
     height: 1000px;
-    background-color: rgb(255, 255, 255);
     font-size: 18px;
     text-align:left;
 }
 
+@media (max-width:900px){
+    .main1 {
+        margin-left: 5px;
+        margin-top: 20px;
+        width: 600px;
+        height: 1000px;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-align:left;
+    }
+    
+    .main2 {
+        margin-left: 5px;
+        margin-top: 20px;
+        width: 600px;
+        height: 1000px;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-align:left;
+    }
+}
 
