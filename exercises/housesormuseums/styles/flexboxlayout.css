@@ -6,13 +6,13 @@
 
 body {
     margin: 0 auto;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(255, 255, 255);
   }
 /*max-width: 60em;*/
 
 @media (max-width:900px){
     body{
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     }
 }
 
