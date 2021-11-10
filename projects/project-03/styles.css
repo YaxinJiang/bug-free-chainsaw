@@ -38,8 +38,6 @@ body {
     display: flex;
     justify-content:space-evenly;
     align-items:flex-start;
-    max-height: 200px;
-    width: auto;
 }
 
 
