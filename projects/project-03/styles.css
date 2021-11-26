@@ -104,6 +104,10 @@ a:hover{
     height: auto;
   }
 
+  .steps {
+      width: 90%;
+  }
+
 
 .container_main {
     display: list-item;
@@ -238,7 +242,7 @@ a:hover{
 }
 
 .step_left {
-    background-color: rgb(223, 145, 145);
+   
     font-size: small;
     width: 50%;
     text-decoration: none;
