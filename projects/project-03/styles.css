@@ -18,6 +18,11 @@ body {
     background-color: rgb(223, 145, 145); ;
 }
 
+.body_photo {
+    background-image: url('images/conerwall_photo.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 
 .subtitle {
     font-size:x-large;
@@ -26,6 +31,10 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+.xl {
+    font-size: 300%;
 }
 
 /*    background: linear-gradient(-45deg, #c78774, #c2839b, #6a98a8, #51a390);
@@ -64,7 +73,17 @@ li{
 
 */
 
+a:hover{
+    color:rgb(175, 84, 84);
+}
+
 .instruction:hover {
+    animation-name:button;
+    animation-duration: 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+#instruction_2:hover {
     animation-name:button;
     animation-duration: 0.5s;
     color: rgb(255, 255, 255);
@@ -94,6 +113,11 @@ li{
     background-size:cover;
     background-repeat: no-repeat;
 }
+
+
+
+
+
 .container_diy {
    
     display: list-item;
@@ -152,14 +176,10 @@ li{
     text-align: center;
 }
 
-.whitebg{
-    background-color: white;
-}
 
 .mid_left {
     background-color: rgb(223, 145, 145);
     width: 40%;
-    font-size: medium;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
@@ -167,11 +187,11 @@ li{
 }
 
 .mid_left_2 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(223, 145, 145);
     width: 40%;
-    font-size: medium;
+    height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
     text-align: center;
 }
@@ -190,6 +210,18 @@ li{
     align-items:center;
 }
 
+.mid_right_3 {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(images/put-together.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
 .bottom {
     
     display: flex;
@@ -202,6 +234,16 @@ li{
     width: 40%;
     text-decoration: none;
     padding: 5px;
+    text-align: left;
+}
+
+.step_left {
+    background-color: rgb(223, 145, 145);
+    font-size: small;
+    width: 50%;
+    text-decoration: none;
+    padding: 5px;
+    text-align: left;
 }
 
 .bot_left_2 {
@@ -219,6 +261,14 @@ li{
     
     font-size: small;
     width: 60%;
+    text-align: right;
+    padding: 5px;
+}
+
+.step_right {
+    
+    font-size: small;
+    width: 50%;
     text-align: right;
     padding: 5px;
 }
