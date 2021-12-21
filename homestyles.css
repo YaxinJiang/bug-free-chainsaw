@@ -30,8 +30,9 @@ background-color: black;
 
 .list {
     padding-top: 1%;
+    padding-bottom: 2%;
     background-color:papayawhip;
-    height: 25%;
+    height: 23%;
     display: flex;
     justify-content: space-around;
 }
