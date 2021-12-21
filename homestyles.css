@@ -22,7 +22,7 @@ background-color: black;
 .greetings {
     display: flex;
     background-color: darkseagreen;
-    height: 72%;
+    height: 71%;
     text-align: center;
     align-items: center;
     justify-content:space-around;
@@ -31,7 +31,7 @@ background-color: black;
 .list {
     padding-top: 1%;
     background-color:papayawhip;
-    height: 24%;
+    height: 25%;
     display: flex;
     justify-content: space-around;
 }
