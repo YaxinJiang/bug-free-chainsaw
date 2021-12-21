@@ -7,7 +7,11 @@ let arrayone = [
     "brick",
     "glass",
     "fabric",
-    "dust"
+    "dust",
+    "love",
+    "yesterday",
+    "rock"
+    
 ];
 
 let arraytwo = [
@@ -15,7 +19,12 @@ let arraytwo = [
     "among small hills",
     "among high montains",
     "by a river",
-    "by an abandoned land"
+    "by an abandoned land",
+    "at a train station",
+    "by the window",
+    "from nowhere",
+    "everywhere"
+
 ];
 
 
@@ -28,7 +37,7 @@ let element_from_array_one = arrayone[Math.floor(Math.random()*arrayone.length)]
 let element_from_array_two = arraytwo[Math.floor(Math.random()*arraytwo.length)];
 //3.creat a new paragraph
 let paragraph = document.createElement("p");
-paragraph.textContent=`${element_from_array_one} ${element_from_array_two}`;
+paragraph.textContent=`I found ${element_from_array_one} ${element_from_array_two}`;
 //4.append the paragraph to the div
 poem.appendChild(paragraph)
 }

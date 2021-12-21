@@ -1,49 +1,101 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: border-box;
 }
 
+h1 {
+    font-size:70px;
+}
 
-nav {
-    height: 40px;
+html {
+    height: 100%;
 }
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: black;
+    height: 100%;
 }
 
+
+
+.greetings {
+    display: flex;
+    background-color: darkseagreen;
+    height: 72%;
+    text-align: center;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.list {
+    padding-top: 1%;
+    background-color:papayawhip;
+    height: 24%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 .guide{
+    height: 3%;
     display:flex;
     justify-content: space-around;
     list-style: none;
-    line-height: 40px;
-    background-color: teal;
+    background-color: black;
+    align-items: center;
 }
 
 .guide a {
     text-decoration: none;
-    color: white;
+    color: darkseagreen;
 }
 
+.list a {
+    text-decoration: none;
+    
+}
+
+.list a:hover {
+    animation-name:textcolor;
+    animation-duration: 4s;
+}
+@keyframes textcolor{
+    0%{
+        background-color:transparent;
+    }
+ 
+    50%{
+        background-color: darkseagreen;
+    }
+    100%{
+        background-color:transparent;
+    }
+}
+
+
+
 li{
-    padding: 0 40px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 li:hover {
     animation-name:guidebutton;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 @keyframes guidebutton{
     0%{
-        background-color: teal;
+        background-color: black;
     }
     50%{
-        background-color: rgb(0, 95, 95);
+        background-color: rgb(61, 75, 61);
     }
     100%{
-        background-color: teal;
+        background-color: black;
     }
 }
-
